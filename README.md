@@ -46,7 +46,7 @@ public class CommandHandler {
 
 ```
 
-có thể thấy addon này đã thu thập các thông tin như: **playerName, serverIP, command**
+có thể thấy addon này đã thu thập các thông tin như: **playerName, serverIP, command**<br>
 **lưu ý:** class này thu thập các lệnh bạn nhập ví dụ: /login abcxyz
 
 ## Dev của addon đã tự nhận việc mình đã thu thập hơn 200 thông tin của user
