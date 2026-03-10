@@ -83,3 +83,7 @@ public class TagetHub {
 **Bằng chứng bên dưới:**
 
 ![Preview](https://github.com/Notkenftr/Student-Addon-Security-Warning/raw/main/IMG_1358.png)
+
+## Trả lời 1 số câu hỏi nếu bạn có hỏi
+1. Vì sao lại là com.example ?
+-> vì mình đã sài 1 web để decompile .jar ra và nó tự đổi
