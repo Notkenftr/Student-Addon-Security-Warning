@@ -86,4 +86,4 @@ public class TagetHub {
 
 ## Trả lời 1 số câu hỏi nếu bạn có hỏi
 1. Vì sao lại là com.example ?
--> vì mình đã sài 1 web để decompile .jar ra và nó tự đổi
+-> vì mình đã sài 1 web để decompile .jar ra và nó tự đổi, bọn mình có đính kèm file gốc bạn có thể tự decompile ra để đối chứng
