@@ -52,4 +52,4 @@ có thể thấy addon này đã thu thập các thông tin như: **playerName, 
 
 **Bằng chứng bên dưới:**
 
-![Preview](https://github.com/Notkenftr/The-student-addon-contains-malware./raw/main/IMG_1358.png)
+![Preview](https://github.com/Notkenftr/Student-Addon-Security-Warning/raw/main/IMG_1358.png)
