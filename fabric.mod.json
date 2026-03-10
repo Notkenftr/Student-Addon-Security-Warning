@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "student",
+  "version": "1.21.8",
+  "name": "Student",
+  "description": "Student addon for meteor",
+  "authors": [
+    "Student"
+  ],
+  "icon": "assets/Student/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.addon.AddonTemplate"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["1.21.8"],
+    "meteor-client": "*"
+  }
+}
