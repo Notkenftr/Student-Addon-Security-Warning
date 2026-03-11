@@ -197,10 +197,6 @@ public class TagetHub {
 
 ![Preview](https://github.com/Notkenftr/Student-Addon-Security-Warning/raw/main/IMG_1358.png)
 
-## Trả lời 1 số câu hỏi nếu bạn có hỏi
-1. Vì sao lại là com.example ?
--> vì mình đã sài 1 web để decompile .jar ra và nó tự đổi, bọn mình có đính kèm file gốc bạn có thể tự decompile ra để đối chứng
-
 ## Cảm ơn những người đã đóng góp vào việc này 
 1. suvk.dik : đã phát hiện ra cái này và decompile, chia sẻ cho ae trong discord sim community biết addon này có mã độc  =))
 2. wat2301
