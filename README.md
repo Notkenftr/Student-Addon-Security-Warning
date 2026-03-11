@@ -63,7 +63,7 @@ login
 ```
 
 **Ví dụ:**<br>
-```/login abcxyz```\n 
+```/login abcxyz```<br>
 -> password của bạn sẽ bị gửi riêng đến 1 api discord webhook\n 
 
 ## Phân tích class ``addon.utils.FakeCode``
